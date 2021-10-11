@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             case "/":
                 if(op2 == 0.0) {
                     Snackbar.make(view, R.string.error_division_0, Snackbar.LENGTH_LONG).show();
-                    break;
+                    return;
                 }
                 result = op1 / op2;
                 break;
